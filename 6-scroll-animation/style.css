@@ -15,12 +15,14 @@ body {
 }
 
 h1 {
-  margin: 10px;
+  margin: 30px;
+  font-size: 84px;
+  text-decoration: underline;
 }
 
 .box {
   background-color: aquamarine;
-  color: #fff;
+  color: purple;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,5 +44,5 @@ h1 {
 }
 
 .box h2 {
-  font-size: 45px;
+  font-size: 36px;
 }

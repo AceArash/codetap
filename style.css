@@ -31,4 +31,5 @@ body {
 .container a:hover {
   transform: translateX(-5px);
   color: rgb(128, 0, 128);
+  text-decoration: underline;
 }
