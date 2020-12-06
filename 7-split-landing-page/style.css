@@ -49,6 +49,7 @@ h1 {
   text-transform: uppercase;
   width: 15rem;
   padding: 1.5rem;
+  border-radius: 30px 1px 30px 1px;
 }
 
 .split.left .btn:hover {
