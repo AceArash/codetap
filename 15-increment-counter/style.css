@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Langar", cursive;
+  background-color: crimson;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+  margin: 30px 60px;
+}
+
+.counter {
+  margin-top: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}
