@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Langar", cursive;
-  background-color: crimson;
+  background-color: azure;
   color: black;
   display: flex;
   align-items: center;
@@ -28,9 +28,25 @@ body {
   margin-top: 10px;
 }
 
+.fa-3x:hover {
+  color: yellowgreen;
+  transform: scale(0.9);
+}
+
+.fa-facebook {
+  color: blue;
+}
+.fa-youtube {
+  color: darkred;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 600px) {
   body {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
