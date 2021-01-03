@@ -21,14 +21,14 @@ body {
 }
 
 canvas {
-  border: 3px solid var(--big-color);
+  border: 1px solid var(--big-color);
 }
 
 .toolbox {
   background-color: var(--big-color);
   border: 1px solid var(--small-color);
   display: flex;
-  width: 807px;
+  width: 700px;
   padding: 1rem;
 }
 .toolbox > * {
